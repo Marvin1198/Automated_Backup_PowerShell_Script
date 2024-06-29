@@ -1,0 +1,53 @@
+# Ignore backup directories and files
+D:/Backups/
+*.bak
+*.backup
+
+# Ignore log files
+*.log
+*.log.*
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.cache
+
+# Ignore PowerShell history and metadata files
+*.ps1history
+*.ps1xml
+*.psm1
+*.psd1
+
+# Ignore compiled output
+*.exe
+*.dll
+
+# Ignore OS-generated files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Ignore specific file extensions
+*.swp
+*.lock
+
+# Ignore node_modules (if using JavaScript in the project)
+node_modules/
+
+# Ignore Python cache (if using Python in the project)
+__pycache__/
+*.py[cod]
+
+# Ignore archive files
+*.zip
+*.tar
+*.gz
+*.rar
